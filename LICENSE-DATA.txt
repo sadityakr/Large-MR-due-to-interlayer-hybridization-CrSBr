@@ -1,0 +1,33 @@
+Creative Commons Attribution 4.0 International License (CC BY 4.0)
+
+Copyright (c) 2025-2026 Aditya Kumar
+
+The data contained in the `data/` directory of this repository is licensed
+under the Creative Commons Attribution 4.0 International License.
+
+You are free to:
+  - Share — copy and redistribute the data in any medium or format
+  - Adapt — remix, transform, and build upon the data for any purpose,
+    even commercially
+
+Under the following terms:
+  - Attribution — You must give appropriate credit. This means you MUST
+    cite the following paper in any work that uses this data:
+
+      S. Hameed, A. Kumar, C. Yu, A. P. Balan, X. Wang, L. Zhang,
+      Y. Mokrousov and M. Kläui, "Large bias-tunable magnetoresistance from
+      spin-dependent interlayer hybridization in van der Waals
+      antiferromagnet CrSBr-based heterostructures", arXiv:2608.11389 (2026).
+      DOI: https://doi.org/10.48550/arXiv.2608.11389
+
+    If the paper has been published in a journal, cite the journal version.
+
+    You must also provide a link to this license and indicate if changes
+    were made. You may do so in any reasonable manner, but not in any way
+    that suggests the licensor endorses you or your use.
+
+  - No additional restrictions — You may not apply legal terms or
+    technological measures that legally restrict others from doing
+    anything the license permits.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode

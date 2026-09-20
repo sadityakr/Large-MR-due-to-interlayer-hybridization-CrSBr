@@ -1,0 +1,12 @@
+# Commit raw data and processed tables byte-for-byte (no line-ending conversion)
+data/** -text
+output/** -text
+*.pkl binary
+*.000 binary
+
+# Source files use LF
+*.py text eol=lf
+*.ipynb text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.cff text eol=lf

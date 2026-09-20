@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crsbranalysis"
+version = "0.1.0"
+description = "Data analysis for magnetoresistance from interlayer hybridization in the van der Waals antiferromagnet CrSBr"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+
+# Everything scripts/ and notebooks/ import at module level.
+dependencies = [
+    "numpy>=2.0",
+    # pandas 3 changed copy-on-write and indexing defaults; the analysis
+    # modules and notebooks were written against 2.x, so stay there.
+    "pandas>=2.2,<3",
+    "matplotlib>=3.8",
+    "scipy>=1.11",
+    "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+# Jupyter runtime: needed to execute anything under notebooks/.
+notebook = [
+    "ipykernel>=6.29",
+    "ipython>=8.20",
+    "jupyterlab>=4.2",
+    "nbformat>=5.10",
+]
+
+[tool.setuptools.packages.find]
+include = ["scripts*"]

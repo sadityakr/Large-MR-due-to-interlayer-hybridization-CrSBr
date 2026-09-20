@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "Data and analysis code for: Large bias-tunable magnetoresistance from spin-dependent interlayer hybridization in CrSBr-based heterostructures"
+type: software
+license: MIT
+authors:
+  - {family-names: Hameed, given-names: Sadeed}
+  - {family-names: Kumar, given-names: Aditya}
+  - {family-names: Yu, given-names: Chengjie}
+  - {family-names: Balan, given-names: Aravind P.}
+  - {family-names: Wang, given-names: Xinran}
+  - {family-names: Zhang, given-names: Lichuan}
+  - {family-names: Mokrousov, given-names: Yuriy}
+  - {family-names: "Kläui", given-names: Mathias}
+preferred-citation:
+  type: article
+  title: "Large bias-tunable magnetoresistance from spin-dependent interlayer hybridization in van der Waals antiferromagnet CrSBr-based heterostructures"
+  authors:
+    - {family-names: Hameed, given-names: Sadeed}
+    - {family-names: Kumar, given-names: Aditya}
+    - {family-names: Yu, given-names: Chengjie}
+    - {family-names: Balan, given-names: Aravind P.}
+    - {family-names: Wang, given-names: Xinran}
+    - {family-names: Zhang, given-names: Lichuan}
+    - {family-names: Mokrousov, given-names: Yuriy}
+    - {family-names: "Kläui", given-names: Mathias}
+  year: 2026
+  doi: "10.48550/arXiv.2608.11389"
+  journal: "arXiv"
+  notes: "arXiv:2608.11389 [cond-mat.mes-hall]"
