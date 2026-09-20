@@ -123,21 +123,6 @@ The `.pkl` files are pandas pickles. They load with pandas 2.x and should be
 treated as trusted local files (unpickling runs arbitrary code, so do not open
 pickles from untrusted sources). Each has a `.csv` twin for the scalar columns.
 
-## Reproducibility
-
-- All notebooks were executed top to bottom on a clean clone of this repository
-  with the environment above. The tables they regenerate agree with the tables
-  shipped in `output/` to floating-point precision (relative differences of
-  about 1e-15, at most 3e-7 on one fit-uncertainty column).
-- The Gaussian-filtered dataframes in `output/IV_H_scans/dataframes/` are the
-  inputs the notebooks read. They can be rebuilt from the raw files with
-  `python scripts/batch_process_all_scans.py --scan-type b_scans` (and
-  `c_scans`; roughly 2-3 minutes per temperature), but the current script does
-  **not** reproduce the shipped tables exactly. It adds an `n_outliers_removed`
-  column, and at some temperatures the values or the set of rows differ (for
-  example 10 K, 40 K and 120 K in `b_scans`). This comparison covered nine of
-  the 19 `b_scans` temperatures and none of `c_scans`. Treat the shipped tables
-  as the analysis inputs of record.
 
 ## License
 
