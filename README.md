@@ -7,7 +7,7 @@ Data, analysis scripts and Jupyter notebooks for the paper
 > hybridization in van der Waals antiferromagnet CrSBr-based heterostructures**
 
 The work studies vertical tunnelling transport through a graphene / CrSBr /
-graphene junction ("Device 2"). Current-voltage curves
+graphene junction. Current-voltage curves
 I(V) were recorded as a function of magnetic field applied along the crystal
 **b** axis and the **c** axis, at temperatures from 3 K to 160 K. The
 notebooks turn these into the magnetoresistance, the conductance-peak
